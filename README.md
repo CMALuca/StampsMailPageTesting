@@ -1,10 +1,6 @@
 Cucumber Boilerplate
 ====================
 
-[![Build Status](https://travis-ci.org/webdriverio/cucumber-boilerplate.svg?branch=master)](https://travis-ci.org/webdriverio/cucumber-boilerplate)
-
-***
-
 A cucumber Boilerplate project that runs Webdriver IO tests on the Stamps.com Mail page. It goes through the various elements on that page and automatically fills in the relevant fields necessary for an international netstamp.
 
 ## Requirements
