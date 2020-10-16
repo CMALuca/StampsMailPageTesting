@@ -1,4 +1,3 @@
-import selectByVisibleText from '../support/action/selectNonStandardValue';
 import setInputField from '../support/action/setInputField';
 import Page from './page'
 
@@ -72,10 +71,7 @@ class MailPage extends Page {
     ouncesFill(value){
         setInputField(value, this.ouncesInput);
     }
-
-    serviceFill(value){
-        selectByVisibleText(value, this.serviceInput);
-    }
+   
            
 }
 
