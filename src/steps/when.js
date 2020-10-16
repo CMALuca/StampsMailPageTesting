@@ -12,7 +12,7 @@ When(
 
 When(
     /^I set Print On to "([^"]*)?"$/,
-   (value) => setInputField(value, MailPage.printOnInput)
+   (value) => setInputField(value, MailPage.printOnInput) //For the next few when statements, I'm just using the setInputField function and passing on our values.
 );
 
 When(
@@ -32,6 +32,6 @@ When(
 
 When(
     /^I set Weight lbs to "([^"]*)?" and oz to "([^"]*)?"$/,
-    (pounds, ounces) => {setInputField(pounds, MailPage.poundsInput); setInputField(ounces, MailPage.ouncesInput)}
+    (pounds, ounces) => {setInputField(pounds, MailPage.poundsInput); setInputField(ounces, MailPage.ouncesInput)} //Due to the nature of multiple values in this statement, I had to use a lambda to pass the values.
 
 )
